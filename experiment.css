@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to right, rgb(160, 242, 161),rgb(168, 204, 168));
+}
+
+.container{
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: black;
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0 0 43px 17px rgb(20, 19, 19);
+}
+
+#display{
+    text-align:right;
+    height:70px;
+    line-height:70px; 
+    padding: 16px 8px;
+    font-size:25px;
+}
+
+.buttons{
+    display:grid;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+    border: 0.5px solid rgb(19, 12, 12);
+    line-height: 100px;
+    text-align:center;
+    cursor: pointer;
+    font-size:25px;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+
+#fahrenheit{
+    background-color: rgb(6, 42, 33);
+    color: white;
+}
+#celsius{
+    background-color: rgb(4, 68, 52);
+    color: white;
+}
+#kelvin{
+    background-color: rgb(25, 81, 67);
+    color: white;
+}
+
